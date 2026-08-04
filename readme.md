@@ -13,3 +13,5 @@ A few notes:
   won't get very far.
   (I have a machine that doesn't emulate the PS2 keyboard or mouse at startup)
   (It's an older machine, just about the time UEFI was getting popular)
+
+I know there are a lot of issues and bugs that need to be fixed. This is a big project that has taken years to get to this state, and I know it still needs plenty of work. Please if you find an issue, please let me know: fys [at] fysnet [dot] net
