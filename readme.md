@@ -15,3 +15,10 @@ A few notes:
   (It's an older machine, just about the time UEFI was getting popular)
 
 I know there are a lot of issues and bugs that need to be fixed. This is a big project that has taken years to get to this state, and I know it still needs plenty of work. Please if you find an issue, please let me know: fys [at] fysnet [dot] net
+
+## News:
+30 Aug 2026:
+  - I now use the decompression feature of the UEFI instead of BZ2 (though it is still included).
+  - Therefore, if you update to any one of these files, you will need to update them all.
+  - I found an error in my multiprocessor detection so I have disabled it until further notice.
+  - I disabled the hardware announcement dialogs due to an unknown GPF.
