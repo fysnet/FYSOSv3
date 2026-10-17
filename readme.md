@@ -6,6 +6,8 @@ A few notes:
 - As long as your firmware supports USB legacy mode, A USB mouse will be available until the USB controller is detected and Legacy mode is turned off. Then there will be a short delay while the USB is enumerated, then the USB mouse will work again, in native mode.
 - Not all of the features are implemented and some of the apps don't do a whole lot.
 - If you shutdown the system using the File menu, there is a considerable delay before it shuts down. This is due to compressing the registry file and saving to disk. The file is considerably small (3k or so), so there has to be a bottle-neck somewhere in my compression code. It takes way to long...
+
+The Notepad app, when launched, will automatically show all of the debug log up to this point as the body text. If you have waited long enough for the USB to enumerate the booted thumb drive, you can save this text to that thumb drive (defaults to that drive). I would appreciate seeing that text file if you don't mind sending it to me at fys [at] fysnet [dot] net.
     
 I know there are a lot of issues and bugs that need to be fixed. This is a big project that has taken years to get to this state, and I know it still needs plenty of work. Please if you find an issue, please let me know: fys [at] fysnet [dot] net
 
