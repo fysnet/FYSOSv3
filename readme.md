@@ -3,6 +3,7 @@ This will be the home for the binary files to be able to boot and test FYSOSv3.
 For now, see [https://www.fysnet.net/blog/2026/07/index.html](https://www.fysnet.net/blog/2026/07/index.html)
 
 A few notes:
+- If you see colored lines drawn across the top of the screen at boot time, don't worry, this is just the debug part of the boot. However, if for some reason it doesn't boot, please let me know how many lines you see and what colors they are and in what order.
 - As long as your firmware supports USB legacy mode, A USB mouse will be available until the USB controller is detected and Legacy mode is turned off. Then there will be a short delay while the USB is enumerated, then the USB mouse will work again, in native mode.
 - Not all of the features are implemented and some of the apps don't do a whole lot.
 - If you shutdown the system using the File menu, there is a considerable delay before it shuts down. This is due to compressing the registry file and saving to disk. The file is considerably small (3k or so), so there has to be a bottle-neck somewhere in my compression code. It takes way to long...
