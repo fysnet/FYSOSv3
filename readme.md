@@ -13,6 +13,14 @@ The Notepad app, when launched, will automatically show all of the debug log up 
 I know there are a lot of issues and bugs that need to be fixed. This is a big project that has taken years to get to this state, and I know it still needs plenty of work. Please if you find an issue, please let me know: fys [at] fysnet [dot] net
 
 ## News:
+15 Nov 2026:
+  - Updated the Paging system. Hopefully this fixes an error on a fellow readers test machine.
+  - Added a settings menu to the boot file. Press F7 when the system shows "Looking for key events" and you can adjust settings.
+    These settings simply allow you to disable the detection/use of these items.
+    Since these settings are meant to be temporary and only for the current session, they are not saved. 
+    You must press F7 on each boot if you desire to adjust these settings.
+  - Press F8 to choose a video mode.
+
 16 Oct 2026:
   - A new ACPI driver has been installed, mostly thanks to [https://github.com/uACPI/uACPI](https://github.com/uACPI/uACPI).
   - With a hack to part of that code (due to a faulty DSDT?), this fixes the touchpad on one of my laptop test machines.
